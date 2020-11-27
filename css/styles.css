@@ -1,0 +1,68 @@
+section{
+	width: 100%;
+	height: 700px;
+}
+img{
+	width: 100px;
+	height: 100px;
+}
+#A{
+	background-image: url("../html/slider/slider.jpg");
+	background-size: 100%;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+header{
+	position: fixed;
+	left: 35%;
+}
+a{
+	text-decoration: none;
+}
+#B{
+	background-image: url("../html/tech.jpg");
+	background-size: 100%;
+	color: white;
+	height: 900px;
+}
+#B div{
+	.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid black;
+  text-align: center;
+  font-size: 30px;
+}
+	width: 400px;
+	height: 300px;
+	display: inline-block;
+	margin: 10px;
+	font-size: 40px;
+}
+#C{
+	background-image: url("../html/apps.jpg");
+	background-size: 100%;
+	color: white;
+	text-align: center;
+}
+.FATIMA{
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+#D{
+	text-align: center;
+}
+#E{
+	background-image: url("../html/contact.jpg");
+	text-align: center;
+	color: white;
+}
